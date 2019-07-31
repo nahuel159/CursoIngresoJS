@@ -6,12 +6,12 @@ function SacarResto()
 {
 	var num1;
     var num2;
-    var resto;
-    
+    var num3;
+
     num1 = parseInt(document.getElementById("numeroDividendo").value);
     num2 = parseInt(document.getElementById("numeroDivisor").value);
+    
+    num3 = num1 % num2;
 
-    resto = num1 % num2;
-
-    alert ("la resto es " + resto);
+    alert (num3);
 }
