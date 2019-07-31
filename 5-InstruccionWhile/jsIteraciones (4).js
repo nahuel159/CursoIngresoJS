@@ -1,15 +1,13 @@
 function mostrar()
 {
-	var	numero = parseInt(prompt("ingrese un numero entre 0 y 10."));
-	
-	while (numero <0 || numero >10 || isNaN(numero)){
 
-	alert ("Numero invalido");
+	var num = parseInt(prompt("ingrese un número entre 0 y 10."));
 
-	numero = parseInt(prompt("ingrese un numero entre 0 y 10."));
+	while (num >= 10 || num <= 0)
+	{
+		num = parseInt(prompt("Reingrese un número entre 0 y 10"));
+	}
 
-		}
-
-	document.getElementById("Numero").value = numero;
+	document.getElementById("Numero").value = ("El número ingresado es: " + num);
 
 }//FIN DE LA FUNCIÓN

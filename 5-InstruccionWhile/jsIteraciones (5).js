@@ -1,10 +1,20 @@
 function mostrar()
 {
 
-var sexo = prompt("ingrese f ó m .");
+    var sex = prompt("Ingrese f ó m");
 
+    while(sex != "f" && sex != "m")
+    {
+        sex = prompt("Reingrese f ó m");
+    }
 
-
-document.getElementById('Sexo').value=sexo;
+    if (sex == "m")
+    {
+        document.getElementById('Sexo').value = ("Ingresó: Masculino");
+    }
+    else
+    {
+        document.getElementById('Sexo').value = ("Ingresó: Femenino");
+    }
 
 }//FIN DE LA FUNCIÓN
