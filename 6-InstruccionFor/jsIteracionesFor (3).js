@@ -1,8 +1,10 @@
-function mostrar()
-{
+function mostrar() {
 
-var repetciones = prompt("ingrese el número de repeticiones");
-
+    var rep = prompt("Ingrese el número de repeticiones");
 
 
-}//FIN DE LA FUNCIÓN
+    for (var i = 1; i < rep; i++) {
+        document.write //parent Hola UTNFRA  <br> punto y coma
+    }
+
+    }//FIN DE LA FUNCIÓN
